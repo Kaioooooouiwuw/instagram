@@ -1,0 +1,25 @@
+{
+  "name": "instagram2_login_only",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "��#\u0000 \u0000i\u0000n\u0000s\u0000t\u0000a\u0000g\u0000r\u0000a\u0000m\u0000\r\u0000 \u0000#\u0000 \u0000s\u0000x\u0000e\u0000\r\u0000 \u0000",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaioooooouiwuw/instagram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kaioooooouiwuw/instagram/issues"
+  },
+  "homepage": "https://github.com/Kaioooooouiwuw/instagram#readme"
+}

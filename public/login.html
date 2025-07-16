@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fafafa;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .phone-image {
+      display: none;
+    }
+
+    .login-box {
+      background: #fff;
+      border: 1px solid #dbdbdb;
+      padding: 40px;
+      max-width: 350px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .login-box img.logo {
+      width: 175px;
+      margin-bottom: 30px;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 6px 0;
+      border: 1px solid #dbdbdb;
+      border-radius: 5px;
+      background: #fafafa;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #3897f0;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .divider {
+      margin: 20px 0;
+      color: #8e8e8e;
+      font-size: 12px;
+    }
+
+    .forgot {
+      font-size: 12px;
+      color: #00376b;
+      margin-top: 12px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .signup-box {
+      background: #fff;
+      border: 1px solid #dbdbdb;
+      padding: 20px;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .signup-box a {
+      color: #3897f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (min-width: 768px) {
+      .wrapper {
+        justify-content: space-around;
+      }
+
+      .phone-image {
+        display: block;
+      }
+
+      .phone-image img {
+        height: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="phone-image">
+    <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/screenshots/screenshot1.png" alt="Instagram phone" />
+  </div>
+
+  <div>
+    <div class="login-box">
+      <img src="https://static.cdninstagram.com/rsrc.php/v3/yx/r/KxW83JwS5hY.png" alt="Instagram" class="logo">
+      <form id="formLogin">
+        <input type="text" id="usuario" placeholder="Telefone, nome de usuário ou email" required />
+        <input type="password" id="senha" placeholder="Senha" required />
+        <button type="submit">Entrar</button>
+      </form>
+      <a href="#" class="forgot">Esqueceu a senha?</a>
+      <div class="divider">OU</div>
+      <button style="background-color:#efefef; color:#262626; font-weight: normal;">Continuar com Facebook</button>
+    </div>
+
+    <div class="signup-box">
+      <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+    </div>
+  </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
